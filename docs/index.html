@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Redactic: European document redaction and PII coverage</title>
+<meta name="description" content="Redactic detects and redacts personal data in PDF, Word, Excel and scanned documents, processed in the EU and never stored. Overview, redaction modes and the national identifiers it validates by check digit.">
+<link rel="icon" href="redactic-favicon.svg" type="image/svg+xml">
+<meta property="og:title" content="Redactic: European document redaction">
+<meta property="og:description" content="Mask personal data for AI or black it out to share. Processed in the EU, never stored, never used to train models.">
+<meta property="og:url" content="https://egesia1.github.io/redactic-docs/">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --sand:#e3b878; --sand-soft:#f3e3c8; --ink:#2b231b; --bark:#5d4d3d;
+  --paper:#fbf7f0; --line:#e6dccb; --muted:#7a6a59; --bar:#2b231b;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:
+  radial-gradient(1200px 500px at 85% -10%, rgba(227,184,120,.28), transparent 60%),
+  repeating-linear-gradient(0deg, transparent 0 31px, rgba(93,77,61,.045) 31px 32px),
+  var(--paper);
+  color:var(--ink);font:400 17px/1.65 "IBM Plex Sans",sans-serif}
+a{color:var(--bark);text-underline-offset:3px}
+.wrap{max-width:980px;margin:0 auto;padding:0 20px}
+header{display:flex;align-items:center;justify-content:space-between;padding:22px 0}
+header img{height:34px}
+.cta{display:inline-block;background:var(--ink);color:var(--paper);padding:11px 20px;border-radius:999px;text-decoration:none;font-weight:600;font-size:15px}
+.cta:hover{background:var(--bark)}
+h1,h2,h3{font-family:"Fraunces",serif;line-height:1.15;margin:0 0 .5em}
+h1{font-size:clamp(36px,6vw,60px);font-weight:700;letter-spacing:-.01em;margin-top:40px}
+h2{font-size:clamp(26px,3.6vw,36px);margin-top:72px}
+h3{font-size:21px}
+.lede{font-size:20px;max-width:720px;color:#43372b}
+.redact{background:var(--bar);color:transparent;border-radius:3px;padding:0 .25em;animation:ink 1.1s .5s both}
+@keyframes ink{from{background:transparent;color:var(--ink)}to{background:var(--bar);color:transparent}}
+.badges{display:flex;flex-wrap:wrap;gap:10px;margin:26px 0 8px;padding:0;list-style:none}
+.badges li{font:500 13px "IBM Plex Mono",monospace;border:1px solid var(--line);background:#fff8;padding:6px 12px;border-radius:999px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+.card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:22px;animation:rise .6s both}
+.card:nth-child(2){animation-delay:.08s}.card:nth-child(3){animation-delay:.16s}.card:nth-child(4){animation-delay:.24s}
+@keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.tag{font:500 12px "IBM Plex Mono",monospace;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+.table-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:14px;background:#fff}
+table{border-collapse:collapse;width:100%;min-width:560px}
+th,td{text-align:left;padding:13px 16px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font:600 13px "IBM Plex Mono",monospace;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);background:var(--sand-soft)}
+tr:last-child td{border-bottom:0}
+code{font:400 14px "IBM Plex Mono",monospace;background:var(--sand-soft);padding:1px 6px;border-radius:4px}
+ol.steps{counter-reset:s;list-style:none;padding:0}
+ol.steps li{counter-increment:s;position:relative;padding:0 0 18px 54px}
+ol.steps li::before{content:counter(s);position:absolute;left:0;top:-2px;width:38px;height:38px;border-radius:50%;background:var(--sand);color:var(--ink);font:700 18px "Fraunces",serif;display:grid;place-items:center}
+details{border-bottom:1px solid var(--line);padding:14px 0}
+summary{cursor:pointer;font-weight:600}
+footer{margin:90px 0 40px;padding-top:24px;border-top:1px solid var(--line);color:var(--muted);font-size:14px;display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <a href="https://redactic.eu/"><img src="redactic-logo.svg" alt="Redactic"></a>
+  <a class="cta" href="https://redactic.eu/">Open Redactic</a>
+</header>
+
+<main>
+<h1>Redact personal data, keep the <span class="redact">document</span> useful.</h1>
+<p class="lede"><a href="https://redactic.eu/">Redactic</a> is a European document redaction tool. It finds personal data in PDF, Word, Excel, images and scanned files, and lets you either mask it reversibly before working with AI or black it out permanently before sharing. Files are processed in the EU, held only in encrypted memory for a few minutes, and never used to train any model.</p>
+<ul class="badges">
+  <li>Processed in the EU</li><li>No document retained</li><li>Never used for AI training</li><li>Restoration in your browser</li><li>DPA signed on subscription</li>
+</ul>
+
+<h2>Two ways to protect a document</h2>
+<div class="grid">
+  <div class="card"><span class="tag">Reversible</span><h3>Pseudonymization</h3><p>Names, tax codes, IBANs and addresses are replaced with placeholders. You can run an AI task on the masked text, inside Redactic or with your own model, and the original values are restored locally in your browser. The mapping never reaches the server.</p></div>
+  <div class="card"><span class="tag">Permanent</span><h3>Anonymization</h3><p>Sensitive data is blacked out directly on the page, including scanned PDFs and images read with OCR. There is no map and no way back, so the downloaded file carries nothing beneath the black bars. Hidden metadata and author properties are stripped as well.</p></div>
+</div>
+
+<h2>How it works</h2>
+<ol class="steps">
+  <li><strong>Upload or paste.</strong> A PDF, Word file, spreadsheet, image or plain text. Spreadsheets can be redacted by column while the table structure is preserved.</li>
+  <li><strong>Review what was detected.</strong> Machine learning models and deterministic rules propose the entities, and you decide what to mask or keep.</li>
+  <li><strong>Share or run AI.</strong> Download the redacted file, or send only the masked text to a model. A redaction certificate with document hashes and a summary of removed data is available for every operation.</li>
+</ol>
+
+<h2>National identifiers validated by check digit</h2>
+<p>Generic detectors recognise names and emails well but often miss the identifiers that carry the most risk in European paperwork. Redactic recognises the country formats below and validates them by check digit, so that look-alike numbers such as invoice references are not mistaken for real identifiers.</p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Country</th><th>Identifiers</th></tr></thead>
+  <tbody>
+    <tr><td>France</td><td>NIR, SIREN, SIRET, numéro fiscal, RIB, TVA, passport</td></tr>
+    <tr><td>Germany</td><td>Steuer-IdNr, USt-IdNr, Sozialversicherungsnummer</td></tr>
+    <tr><td>Italy</td><td>Codice Fiscale, Partita IVA, Tessera Sanitaria</td></tr>
+    <tr><td>Spain</td><td>DNI, NIE, NSS</td></tr>
+    <tr><td>All countries</td><td>IBAN in any country format (mod-97), payment card numbers</td></tr>
+  </tbody>
+</table>
+</div>
+<p>Formats for the Netherlands, Switzerland, Austria, Belgium, Ireland, the United Kingdom, the United States, Canada, India, Singapore and South Africa are also recognised, together with names, companies, postal addresses, email and certified email (PEC), phone numbers, passports, identity cards and driving licences. The full and current list is on <a href="https://redactic.eu/">the Redactic website</a>.</p>
+
+<h2>Who uses it</h2>
+<p>Redactic is designed for professionals who handle personal data every day and need a quick, verifiable way to remove it: law firms and their assistants, HR and payroll offices, accountants, labour consultants, notaries and administrative staff.</p>
+
+<h2>Questions</h2>
+<details><summary>Are my documents saved?</summary><p>No. The document and the result stay only in encrypted memory for a few minutes and are then deleted. There is no database copy, no log of the content and nothing written to disk.</p></details>
+<details><summary>Do I have to use your AI?</summary><p>No. You can run the task inside Redactic or copy the masked text and use it with any model you prefer. In both cases the real values come back only in your browser.</p></details>
+<details><summary>Who is the data controller?</summary><p>You are. Redactic acts as the data processor and the data processing agreement is signed automatically when you subscribe. The legal basis and the notice to the people in your documents remain with you.</p></details>
+<details><summary>Does it work with scans?</summary><p>Yes. Text in scanned PDFs and images is recognised with OCR, masked and, if you only need to share, blacked out directly on the page.</p></details>
+
+<p style="margin-top:48px"><a class="cta" href="https://redactic.eu/">Try Redactic on redactic.eu</a></p>
+</main>
+
+<footer>
+  <span>Redactic is a product by <a href="https://ks-agents.com/">KS-Agents</a>.</span>
+  <span><a href="https://redactic.eu/">redactic.eu</a> · <a href="https://github.com/egesia1/redactic-docs/issues">Request an identifier type</a></span>
+</footer>
+</div>
+</body>
+</html>

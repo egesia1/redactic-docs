@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+  <defs>
+    <mask id="sparkle-mask-favicon">
+      <rect x="0" y="0" width="100" height="100" fill="white" />
+      <path d="M 70 41 Q 70 56 85 56 Q 70 56 70 71 Q 70 56 55 56 Q 70 56 70 41 Z" fill="black" />
+    </mask>
+  </defs>
+  
+  <rect x="0" y="0" width="100" height="100" rx="22" fill="#e3b878" />
+  <rect x="20" y="25" width="40" height="8" rx="4" fill="#5d4d3d" />
+  <rect x="20" y="46" width="60" height="20" rx="4" fill="#5d4d3d" mask="url(#sparkle-mask-favicon)" />
+  <rect x="20" y="79" width="30" height="8" rx="4" fill="#5d4d3d" />
+</svg>
