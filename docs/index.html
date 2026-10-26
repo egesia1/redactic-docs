@@ -3,8 +3,36 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Redactic: European document redaction and PII coverage</title>
-<meta name="description" content="Redactic detects and redacts personal data in PDF, Word, Excel and scanned documents, processed in the EU and never stored. Overview, redaction modes and the national identifiers it validates by check digit.">
+<title>Redactic: GDPR document redaction and anonymization tool, made in the EU</title>
+<meta name="description" content="Redactic detects and redacts personal data in PDF, Word, Excel and scanned documents, processed in the EU and never stored. Pseudonymization vs anonymization under GDPR, redaction before using AI, and the national identifiers it validates by check digit.">
+<link rel="canonical" href="https://egesia1.github.io/redactic-docs/">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "SoftwareApplication",
+      "name": "Redactic",
+      "url": "https://redactic.eu/",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "description": "European document redaction tool that detects personal data in PDF, Word, Excel, images and scanned files, with reversible pseudonymization for AI and permanent anonymization for sharing.",
+      "offers": {"@type": "AggregateOffer", "priceCurrency": "EUR", "lowPrice": "19", "highPrice": "49"},
+      "publisher": {"@type": "Organization", "name": "KS-Agents", "url": "https://ks-agents.com/"}
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "Are my documents saved?", "acceptedAnswer": {"@type": "Answer", "text": "No. The document and the result stay only in encrypted memory for a few minutes and are then deleted. There is no database copy, no log of the content and nothing written to disk."}},
+        {"@type": "Question", "name": "Do I have to use your AI?", "acceptedAnswer": {"@type": "Answer", "text": "No. You can run the task inside Redactic or copy the masked text and use it with any model you prefer. In both cases the real values come back only in your browser."}},
+        {"@type": "Question", "name": "Who is the data controller?", "acceptedAnswer": {"@type": "Answer", "text": "You are. Redactic acts as the data processor and the data processing agreement is signed automatically when you subscribe. The legal basis and the notice to the people in your documents remain with you."}},
+        {"@type": "Question", "name": "Does it work with scans?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Text in scanned PDFs and images is recognised with OCR, masked and, if you only need to share, blacked out directly on the page."}},
+        {"@type": "Question", "name": "Is pseudonymized data still personal data under GDPR?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Under Article 4(5) GDPR pseudonymized data remains personal data, because it can be linked back to a person with additional information. Only anonymized data, which can no longer identify anyone, falls outside the GDPR as described in Recital 26."}}
+      ]
+    }
+  ]
+}
+</script>
 <link rel="icon" href="redactic-favicon.svg" type="image/svg+xml">
 <meta property="og:title" content="Redactic: European document redaction">
 <meta property="og:description" content="Mask personal data for AI or black it out to share. Processed in the EU, never stored, never used to train models.">
@@ -54,6 +82,9 @@ code{font:400 14px "IBM Plex Mono",monospace;background:var(--sand-soft);padding
 ol.steps{counter-reset:s;list-style:none;padding:0}
 ol.steps li{counter-increment:s;position:relative;padding:0 0 18px 54px}
 ol.steps li::before{content:counter(s);position:absolute;left:0;top:-2px;width:38px;height:38px;border-radius:50%;background:var(--sand);color:var(--ink);font:700 18px "Fraunces",serif;display:grid;place-items:center}
+.listed{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:10px;padding:0;list-style:none}
+.listed a{display:block;background:#fff;border:1px solid var(--line);border-radius:10px;padding:12px 16px;text-decoration:none;font-weight:500}
+.listed a:hover{border-color:var(--sand)}
 details{border-bottom:1px solid var(--line);padding:14px 0}
 summary{cursor:pointer;font-weight:600}
 footer{margin:90px 0 40px;padding-top:24px;border-top:1px solid var(--line);color:var(--muted);font-size:14px;display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between}
@@ -78,6 +109,28 @@ footer{margin:90px 0 40px;padding-top:24px;border-top:1px solid var(--line);colo
 <div class="grid">
   <div class="card"><span class="tag">Reversible</span><h3>Pseudonymization</h3><p>Names, tax codes, IBANs and addresses are replaced with placeholders. You can run an AI task on the masked text, inside Redactic or with your own model, and the original values are restored locally in your browser. The mapping never reaches the server.</p></div>
   <div class="card"><span class="tag">Permanent</span><h3>Anonymization</h3><p>Sensitive data is blacked out directly on the page, including scanned PDFs and images read with OCR. There is no map and no way back, so the downloaded file carries nothing beneath the black bars. Hidden metadata and author properties are stripped as well.</p></div>
+</div>
+
+<h2>Pseudonymization or anonymization: what GDPR expects</h2>
+<p>The two terms are often used as synonyms, but the GDPR treats them very differently. Pseudonymized data, as defined in Article 4(5), is still personal data: the identifiers are replaced, yet the information can be linked back to a person with a separate key. It stays within the scope of the regulation, although Article 32 lists pseudonymization among the measures that lower risk. Anonymized data can no longer identify anyone, and Recital 26 places it outside the GDPR altogether.</p>
+<p>The right choice depends on what happens to the document next. When you need the original values back, for example to finish a contract draft or a payroll report that an AI model helped you write, pseudonymization keeps the work usable. When the document leaves your organisation, such as a court filing, a response to an access request or a file shared with a supplier, permanent anonymization removes the data for good. Redactic offers both modes from the same upload, so the decision can be made document by document.</p>
+
+<h2>Redacting documents before using ChatGPT and other AI tools</h2>
+<p>Pasting a contract or an employee file into a chatbot sends every name, tax code and bank detail to the model provider. Redactic sits in front of that step: it masks the personal data, lets you run the task on the masked text inside Redactic or with the AI tool you already use, and restores the real values in your browser once the answer comes back. The model only ever sees placeholders, and the mapping between placeholders and real values never reaches our server.</p>
+<p>Masking, permanent blackout and redaction certificates do not consume AI credits, so the protective step costs nothing extra on any plan. Credits are used only when you run AI tasks inside Redactic.</p>
+
+<h2>Supported files</h2>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Format</th><th>What Redactic does</th></tr></thead>
+  <tbody>
+    <tr><td>PDF (text and scanned)</td><td>Detects personal data, including OCR on scanned pages, and blacks it out on the page or masks it for AI</td></tr>
+    <tr><td>Word</td><td>Masks or removes personal data in the text and strips author properties and hidden metadata</td></tr>
+    <tr><td>Excel and CSV</td><td>Redacts by column while keeping the table structure intact</td></tr>
+    <tr><td>Images</td><td>Reads text with OCR and blacks out the detected values</td></tr>
+    <tr><td>Plain text</td><td>Paste and mask directly, without uploading a file</td></tr>
+  </tbody>
+</table>
 </div>
 
 <h2>How it works</h2>
@@ -111,6 +164,20 @@ footer{margin:90px 0 40px;padding-top:24px;border-top:1px solid var(--line);colo
 <details><summary>Do I have to use your AI?</summary><p>No. You can run the task inside Redactic or copy the masked text and use it with any model you prefer. In both cases the real values come back only in your browser.</p></details>
 <details><summary>Who is the data controller?</summary><p>You are. Redactic acts as the data processor and the data processing agreement is signed automatically when you subscribe. The legal basis and the notice to the people in your documents remain with you.</p></details>
 <details><summary>Does it work with scans?</summary><p>Yes. Text in scanned PDFs and images is recognised with OCR, masked and, if you only need to share, blacked out directly on the page.</p></details>
+<details><summary>Is pseudonymized data still personal data under GDPR?</summary><p>Yes. Under Article 4(5) GDPR pseudonymized data remains personal data, because it can be linked back to a person with additional information. Only anonymized data, which can no longer identify anyone, falls outside the GDPR as described in Recital 26.</p></details>
+
+<h2>Listed on</h2>
+<p>Redactic is listed in these startup and software directories, where you can read the product profile, follow updates and leave a review.</p>
+<ul class="listed">
+  <li><a href="https://www.producthunt.com/products/redactic">Redactic on Product Hunt</a></li>
+  <li><a href="https://launchigniter.com/product/redactic">Redactic on LaunchIgniter</a></li>
+  <li><a href="https://startupfa.me/s/redactic">Redactic on Startup Fame</a></li>
+  <li><a href="https://theonestartup.com/item/redactic">Redactic on The One Startup</a></li>
+  <li><a href="https://startuptrusted.com/startup/redactic">Redactic on StartupTrusted</a></li>
+  <li><a href="https://saasgrow.app/saas/redactic/timeline">Redactic on SaaSGrow</a></li>
+  <li><a href="https://trustiner.com/product/redactic">Redactic on Trustiner</a></li>
+  <li><a href="https://twelve.tools/redactic-eu">Redactic on Twelve Tools</a></li>
+</ul>
 
 <p style="margin-top:48px"><a class="cta" href="https://redactic.eu/">Try Redactic on redactic.eu</a></p>
 </main>

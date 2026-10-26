@@ -29,6 +29,17 @@ Formats for the Netherlands, Switzerland, Austria, Belgium, Ireland, the United 
 
 Missing a document type or a national identifier your work depends on? [Open an issue](https://github.com/egesia1/redactic-docs/issues/new) with the country, the identifier name and a link to its official format specification. Please never paste real personal data in an issue.
 
+## Listed on
+
+- [Redactic on Product Hunt](https://www.producthunt.com/products/redactic)
+- [Redactic on LaunchIgniter](https://launchigniter.com/product/redactic)
+- [Redactic on Startup Fame](https://startupfa.me/s/redactic)
+- [Redactic on The One Startup](https://theonestartup.com/item/redactic)
+- [Redactic on StartupTrusted](https://startuptrusted.com/startup/redactic)
+- [Redactic on SaaSGrow](https://saasgrow.app/saas/redactic/timeline)
+- [Redactic on Trustiner](https://trustiner.com/product/redactic)
+- [Redactic on Twelve Tools](https://twelve.tools/redactic-eu)
+
 ---
 
 Redactic is a product by [KS-Agents](https://ks-agents.com/).
