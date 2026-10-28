@@ -39,6 +39,9 @@ Missing a document type or a national identifier your work depends on? [Open an 
 - [Redactic on SaaSGrow](https://saasgrow.app/saas/redactic/timeline)
 - [Redactic on Trustiner](https://trustiner.com/product/redactic)
 - [Redactic on Twelve Tools](https://twelve.tools/redactic-eu)
+- [Redactic on F6S](https://www.f6s.com/software/redactic)
+- [Redactic on Mapa LegalTech Polska](https://legaltechmap.pl/narzedzie/redactic)
+- [Redactic in the Village de la Justice LegalTech guide](https://www.village-justice.com/articles/guide-observatoire-legaltech?societe=Redactic)
 
 ---
 
