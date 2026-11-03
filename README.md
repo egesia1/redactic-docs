@@ -44,6 +44,7 @@ Missing a document type or a national identifier your work depends on? [Open an 
 - [Redactic on Capterra](https://www.capterra.com/p/10281595/Redactic/)
 - [Redactic on GetApp](https://www.getapp.com/all-software/a/redactic/)
 - [Redactic on Software Advice](https://www.softwareadvice.com/product/788916-Redactic/)
+- [Redactic on Trustpilot](https://www.trustpilot.com/review/redactic.eu)
 - [Redactic on Mapa LegalTech Polska](https://legaltechmap.pl/narzedzie/redactic)
 - [Redactic in the Village de la Justice LegalTech guide](https://www.village-justice.com/articles/guide-observatoire-legaltech?societe=Redactic)
 
