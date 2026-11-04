@@ -47,6 +47,8 @@ Missing a document type or a national identifier your work depends on? [Open an 
 - [Redactic on Trustpilot](https://www.trustpilot.com/review/redactic.eu)
 - [Redactic on Startup Benchmarks](https://startupbenchmarks.com/product/redactic)
 - [Redactic on Mapa LegalTech Polska](https://legaltechmap.pl/narzedzie/redactic)
+- [Redactic in the Legal Tech Verband Deutschland Toolfinder](https://www.legaltechverband.de/toolfinder/redactic/)
+- [Redactic on PromoteProject](https://www.promoteproject.com/startup/205607/redactic)
 - [Redactic in the Village de la Justice LegalTech guide](https://www.village-justice.com/articles/guide-observatoire-legaltech?societe=Redactic)
 
 ---
