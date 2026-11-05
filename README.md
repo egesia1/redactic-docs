@@ -50,6 +50,7 @@ Missing a document type or a national identifier your work depends on? [Open an 
 - [Redactic in the Legal Tech Verband Deutschland Toolfinder](https://www.legaltechverband.de/toolfinder/redactic/)
 - [Redactic on PromoteProject](https://www.promoteproject.com/startup/205607/redactic)
 - [Redactic in the Village de la Justice LegalTech guide](https://www.village-justice.com/articles/guide-observatoire-legaltech?societe=Redactic)
+- [Redactic in the LawNext Legal Technology Directory](https://directory.lawnext.com/products/redactic/)
 
 ---
 
