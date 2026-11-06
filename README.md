@@ -61,6 +61,7 @@ Missing a document type or a national identifier your work depends on? [Open an 
 - [Redactic on Best-AI.org](https://best-ai.org/tool/redactic)
 - [Redactic on AIDiveForge](https://aidiveforge.com/listing/redactic/)
 - [Redactic on Picari](https://picari.ai/directory/redactic)
+- [Redactic on SaaSHub](https://www.saashub.com/redactic-eu)
 
 ---
 
