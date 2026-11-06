@@ -56,6 +56,7 @@ Missing a document type or a national identifier your work depends on? [Open an 
 - [Redactic on Web Directory Link](https://www.webdirectorylink.com/listing-detail/redactic-document-redaction-and-ai-pseudonymisation/)
 - [Redactic on AICavo](https://aicavo.com/tools/redactic)
 - [Redactic on Caimpare](https://caimpare.ai/tool/88139)
+- [Redactic on The Org](https://theorg.com/org/redactic-1)
 
 ---
 
