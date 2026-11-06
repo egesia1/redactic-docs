@@ -57,6 +57,7 @@ Missing a document type or a national identifier your work depends on? [Open an 
 - [Redactic on AICavo](https://aicavo.com/tools/redactic)
 - [Redactic on Caimpare](https://caimpare.ai/tool/88139)
 - [Redactic on The Org](https://theorg.com/org/redactic-1)
+- [Redactic on Buyersprove](https://buyersprove.com/review/redactic.eu/)
 
 ---
 
