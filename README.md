@@ -62,6 +62,14 @@ Missing a document type or a national identifier your work depends on? [Open an 
 - [Redactic on AIDiveForge](https://aidiveforge.com/listing/redactic/)
 - [Redactic on Picari](https://picari.ai/directory/redactic)
 - [Redactic on SaaSHub](https://www.saashub.com/redactic-eu)
+- [Redactic on IndieHunt](https://indiehunt.io/project/redactic)
+- [Redactic on Launch](https://trylaunch.ai/launch/redactic)
+- [Redactic on Storeboard](https://www.storeboard.com/redactic)
+
+## Cited in
+
+- [Platzi course "Ciberseguridad e IA en el trabajo": data and risks in Latin America](https://platzi.com/cursos/ciberseguridad-ia-trabajo/datos-riesgo-latam/), citing the Redactic shadow AI statistics
+- [Hanademi: ChatGPT explained (Spanish)](https://hanademi.com/explain/chatgpt/es/), citing the Redactic shadow AI statistics
 
 ---
 
