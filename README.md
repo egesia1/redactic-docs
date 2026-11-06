@@ -58,6 +58,8 @@ Missing a document type or a national identifier your work depends on? [Open an 
 - [Redactic on Caimpare](https://caimpare.ai/tool/88139)
 - [Redactic on The Org](https://theorg.com/org/redactic-1)
 - [Redactic on Buyersprove](https://buyersprove.com/review/redactic.eu/)
+- [Redactic on Best-AI.org](https://best-ai.org/tool/redactic)
+- [Redactic on AIDiveForge](https://aidiveforge.com/listing/redactic/)
 
 ---
 
