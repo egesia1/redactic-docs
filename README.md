@@ -51,6 +51,11 @@ Missing a document type or a national identifier your work depends on? [Open an 
 - [Redactic on PromoteProject](https://www.promoteproject.com/startup/205607/redactic)
 - [Redactic in the Village de la Justice LegalTech guide](https://www.village-justice.com/articles/guide-observatoire-legaltech?societe=Redactic)
 - [Redactic in the LawNext Legal Technology Directory](https://directory.lawnext.com/products/redactic/)
+- [Redactic on AIMAPER](https://aimaper.com/tool/redactic/)
+- [Redactic in the Bizoforce business directory](https://bizoforce.com/business-directory/redactic)
+- [Redactic on Web Directory Link](https://www.webdirectorylink.com/listing-detail/redactic-document-redaction-and-ai-pseudonymisation/)
+- [Redactic on AICavo](https://aicavo.com/tools/redactic)
+- [Redactic on Caimpare](https://caimpare.ai/tool/88139)
 
 ---
 
