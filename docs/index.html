@@ -87,6 +87,8 @@ ol.steps li::before{content:counter(s);position:absolute;left:0;top:-2px;width:3
 .listed{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:10px;padding:0;list-style:none}
 .listed a{display:block;background:#fff;border:1px solid var(--line);border-radius:10px;padding:12px 16px;text-decoration:none;font-weight:500}
 .listed a:hover{border-color:var(--sand)}
+.dir{padding-left:1.1em}
+.dir li{margin:0 0 10px}
 details{border-bottom:1px solid var(--line);padding:14px 0}
 summary{cursor:pointer;font-weight:600}
 footer{margin:90px 0 40px;padding-top:24px;border-top:1px solid var(--line);color:var(--muted);font-size:14px;display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between}
@@ -170,7 +172,7 @@ footer{margin:90px 0 40px;padding-top:24px;border-top:1px solid var(--line);colo
 
 <h2>Further reading</h2>
 <ul>
-  <li><a href="https://redaction-notes.pages.dev/">Redaction Notes</a>: short, sourced guides on <a href="https://redaction-notes.pages.dev/why-black-boxes-fail">why black boxes fail in PDFs</a>, <a href="https://redaction-notes.pages.dev/tenant-files-what-to-black-out">tenant files in France and Germany</a> and <a href="https://redaction-notes.pages.dev/placeholders-before-ai">placeholders before AI</a></li>
+  <li><a href="https://redaction-notes.pages.dev/">Redaction Notes</a>, our companion site: short, sourced guides on <a href="https://redaction-notes.pages.dev/why-black-boxes-fail">why black boxes fail in PDFs</a>, <a href="https://redaction-notes.pages.dev/tenant-files-what-to-black-out">tenant files in France and Germany</a> and <a href="https://redaction-notes.pages.dev/placeholders-before-ai">placeholders before AI</a></li>
   <li><a href="https://redaction-guide.blogspot.com/2026/10/how-to-redact-payslip-without-losing.html">How to redact a payslip without losing the figures people actually need</a> (Redaction Guide)</li>
   <li><a href="https://ks-agents.gitbook.io/ks-agents-docs/">Redacting personal data in office documents</a> (GitBook)</li>
   <li><a href="https://lucaricatti.wixsite.com/realestate-privacy">Real Estate Privacy Checklist</a>: <a href="https://lucaricatti.wixsite.com/realestate-privacy/post/a-privacy-checklist-for-real-estate-agencies-handling-tenant-and-buyer-files">GDPR checklist for agencies handling tenant and buyer files</a> and <a href="https://lucaricatti.wixsite.com/realestate-privacy/post/sharing-a-file-with-the-owner-what-to-keep-and-what-to-cover">what to cover before sharing a file with the owner</a></li>
@@ -181,44 +183,60 @@ footer{margin:90px 0 40px;padding-top:24px;border-top:1px solid var(--line);colo
   <li><a href="https://redactic.eu/us/">Redactic for US legal teams</a>: SSN, EIN and routing number detection, prices in USD</li>
 </ul>
 
-<h2>Listed on</h2>
-<p>Redactic is listed in these startup, software and legal tech directories, where you can read the product profile, follow updates and leave a review.</p>
-<ul class="listed">
-  <li><a href="https://www.producthunt.com/products/redactic">Redactic on Product Hunt</a></li>
-  <li><a href="https://alternativeto.net/software/redactic/about/">Redactic on AlternativeTo</a></li>
-  <li><a href="https://launchigniter.com/product/redactic">Redactic on LaunchIgniter</a></li>
-  <li><a href="https://startupfa.me/s/redactic">Redactic on Startup Fame</a></li>
-  <li><a href="https://theonestartup.com/item/redactic">Redactic on The One Startup</a></li>
-  <li><a href="https://startuptrusted.com/startup/redactic">Redactic on StartupTrusted</a></li>
-  <li><a href="https://saasgrow.app/saas/redactic/timeline">Redactic on SaaSGrow</a></li>
-  <li><a href="https://trustiner.com/product/redactic">Redactic on Trustiner</a></li>
-  <li><a href="https://twelve.tools/redactic-eu">Redactic on Twelve Tools</a></li>
-  <li><a href="https://www.f6s.com/software/redactic">Redactic on F6S</a></li>
-  <li><a href="https://www.g2.com/products/redactic/reviews">Redactic on G2</a></li>
-  <li><a href="https://www.capterra.com/p/10281595/Redactic/">Redactic on Capterra</a></li>
-  <li><a href="https://www.getapp.com/all-software/a/redactic/">Redactic on GetApp</a></li>
-  <li><a href="https://www.softwareadvice.com/product/788916-Redactic/">Redactic on Software Advice</a></li>
-  <li><a href="https://www.trustpilot.com/review/redactic.eu">Redactic on Trustpilot</a></li>
-  <li><a href="https://startupbenchmarks.com/product/redactic">Redactic on Startup Benchmarks</a></li>
-  <li><a href="https://legaltechmap.pl/narzedzie/redactic">Redactic on Mapa LegalTech Polska</a></li>
-  <li><a href="https://www.legaltechverband.de/toolfinder/redactic/">Redactic in the Legal Tech Verband Deutschland Toolfinder</a></li>
-  <li><a href="https://www.promoteproject.com/startup/205607/redactic">Redactic on PromoteProject</a></li>
-  <li><a href="https://www.village-justice.com/articles/guide-observatoire-legaltech?societe=Redactic">Redactic in the Village de la Justice LegalTech guide</a></li>
-  <li><a href="https://directory.lawnext.com/products/redactic/">Redactic in the LawNext Legal Technology Directory</a></li>
-  <li><a href="https://aimaper.com/tool/redactic/">Redactic on AIMAPER</a></li>
-  <li><a href="https://bizoforce.com/business-directory/redactic">Redactic in the Bizoforce business directory</a></li>
-  <li><a href="https://www.webdirectorylink.com/listing-detail/redactic-document-redaction-and-ai-pseudonymisation/">Redactic on Web Directory Link</a></li>
-  <li><a href="https://aicavo.com/tools/redactic">Redactic on AICavo</a></li>
-  <li><a href="https://caimpare.ai/tool/88139">Redactic on Caimpare</a></li>
-  <li><a href="https://theorg.com/org/redactic-1">Redactic on The Org</a></li>
-  <li><a href="https://buyersprove.com/review/redactic.eu/">Redactic on Buyersprove</a></li>
-  <li><a href="https://best-ai.org/tool/redactic">Redactic on Best-AI.org</a></li>
-  <li><a href="https://aidiveforge.com/listing/redactic/">Redactic on AIDiveForge</a></li>
-  <li><a href="https://picari.ai/directory/redactic">Redactic on Picari</a></li>
-  <li><a href="https://www.saashub.com/redactic-eu">Redactic on SaaSHub</a></li>
-  <li><a href="https://indiehunt.io/project/redactic">Redactic on IndieHunt</a></li>
-  <li><a href="https://trylaunch.ai/launch/redactic">Redactic on Launch</a></li>
-  <li><a href="https://www.storeboard.com/redactic">Redactic on Storeboard</a></li>
+<h2>Where Redactic is listed</h2>
+<p>Redactic has profiles in legal tech catalogues, software review sites, AI tool directories and startup platforms. Each profile describes the product in that site's own categories, and several of them collect reviews from people who have used it. The list below is grouped by type of site, with a note on what each profile covers.</p>
+
+<h3>Legal technology directories</h3>
+<p>These catalogues are run by legal publishers and legal tech associations and list tools for law firms and in-house legal teams. Redactic appears in catalogues from the United States, Germany, Poland and France.</p>
+<ul class="dir">
+  <li><a href="https://directory.lawnext.com/products/redactic/">Redactic in the LawNext Legal Technology Directory</a>: the directory published by LawNext, with the product profile, pricing and space for reviews from legal professionals.</li>
+  <li><a href="https://www.legaltechverband.de/toolfinder/redactic/">Redactic in the Legal Tech Verband Deutschland Toolfinder</a>: the tool finder of the German legal tech association, where law firms search tools by area of practice.</li>
+  <li><a href="https://legaltechmap.pl/narzedzie/redactic">Redactic on Mapa LegalTech Polska</a>: the 2026 edition of the Polish catalogue of legal technology for law firms, businesses and citizens.</li>
+  <li><a href="https://www.village-justice.com/articles/guide-observatoire-legaltech?societe=Redactic">Redactic in the Village de la Justice LegalTech guide</a>: the French legal community's guide to legal tech companies, compiled for its LegalTech observatory.</li>
+</ul>
+
+<h3>Software review platforms</h3>
+<p>Review platforms are where buyers compare products side by side and read what other customers say. Capterra, GetApp and Software Advice belong to the same group and share one profile.</p>
+<ul class="dir">
+  <li><a href="https://www.g2.com/products/redactic/reviews">Redactic on G2</a>: the product profile, with room for verified user reviews and comparisons with other redaction software.</li>
+  <li><a href="https://www.capterra.com/p/10281595/Redactic/">Redactic on Capterra</a>, <a href="https://www.getapp.com/all-software/a/redactic/">GetApp</a> and <a href="https://www.softwareadvice.com/product/788916-Redactic/">Software Advice</a>: one profile shown on the three Gartner Digital Markets sites, with pricing and reviews.</li>
+  <li><a href="https://www.trustpilot.com/review/redactic.eu">Redactic on Trustpilot</a>: open customer reviews of redactic.eu.</li>
+  <li><a href="https://buyersprove.com/review/redactic.eu/">Redactic on Buyersprove</a>: customer reviews of redactic.eu, including support and reliability.</li>
+  <li><a href="https://www.saashub.com/redactic-eu">Redactic on SaaSHub</a>: an independent software marketplace that lists Redactic next to its alternatives.</li>
+  <li><a href="https://alternativeto.net/software/redactic/about/">Redactic on AlternativeTo</a>: a crowdsourced list of software alternatives, where Redactic is listed as an alternative to other redaction tools.</li>
+</ul>
+
+<h3>AI tool directories</h3>
+<p>AI directories catalogue tools that use or sit next to language models. They place Redactic in different categories, which shows how people look for it: as a guardrail in front of a model, as data loss prevention, or as a way to use a chatbot on documents that contain personal data.</p>
+<ul class="dir">
+  <li><a href="https://aidiveforge.com/listing/redactic/">Redactic on AIDiveForge</a>: listed under guardrails and safety, the tools that control what reaches a model.</li>
+  <li><a href="https://picari.ai/directory/redactic">Redactic on Picari</a>: listed as data loss prevention for documents, with pricing and alternatives.</li>
+  <li><a href="https://aicavo.com/tools/redactic">Redactic on AICavo</a>: a profile describing how names, tax codes, IBANs and health details are found in contracts, payslips and scanned IDs.</li>
+  <li><a href="https://aimaper.com/tool/redactic/">Redactic on AIMAPER</a>: features, pricing and alternatives for offices that share documents or send them to AI models.</li>
+  <li><a href="https://caimpare.ai/tool/88139">Redactic on cAImpare</a>: a comparison site for AI tools, describing how Redactic removes personal data before documents reach an AI model.</li>
+  <li><a href="https://best-ai.org/tool/redactic">Redactic on Best-AI.org</a>: a 2026 review in the productivity and collaboration category.</li>
+  <li><a href="https://trustiner.com/product/redactic">Redactic on Trustiner</a> and <a href="https://startupbenchmarks.com/product/redactic">Startup Benchmarks</a>: both list it with chatbot products, because the masked text can be used with any AI assistant.</li>
+  <li><a href="https://twelve.tools/redactic-eu">Redactic on Twelve Tools</a>: a short profile of document redaction combined with AI chat on masked text.</li>
+</ul>
+
+<h3>Startup and launch platforms</h3>
+<p>Launch platforms follow new products from the day they go public, and their profiles describe the product at launch.</p>
+<ul class="dir">
+  <li><a href="https://www.producthunt.com/products/redactic">Redactic on Product Hunt</a>: the launch page and product profile.</li>
+  <li><a href="https://saasgrow.app/saas/redactic/timeline">Redactic on SaaSGrow</a>: a timeline of product updates since launch.</li>
+  <li><a href="https://www.f6s.com/software/redactic">Redactic on F6S</a>: the startup network's software profile.</li>
+  <li><a href="https://theorg.com/org/redactic-1">Redactic on The Org</a>: the company page, with KS-Agents in Trieste, Italy, as the team behind the product.</li>
+  <li><a href="https://www.promoteproject.com/startup/205607/redactic">Redactic on PromoteProject</a>: a startup profile in the business services category.</li>
+  <li><a href="https://launchigniter.com/product/redactic">Redactic on LaunchIgniter</a>, <a href="https://startupfa.me/s/redactic">Startup Fame</a>, <a href="https://theonestartup.com/item/redactic">The One Startup</a> and <a href="https://startuptrusted.com/startup/redactic">StartupTrusted</a>: launch directories that describe Redactic as EU-hosted document redaction for files shared with people or with AI models.</li>
+  <li><a href="https://indiehunt.io/project/redactic">Redactic on IndieHunt</a> and <a href="https://trylaunch.ai/launch/redactic">Launch</a>: two platforms for independent makers; IndieHunt files Redactic under security tools.</li>
+</ul>
+
+<h3>Business directories</h3>
+<p>General business directories list the company with its contact details and a description of the service.</p>
+<ul class="dir">
+  <li><a href="https://bizoforce.com/business-directory/redactic">Redactic in the Bizoforce business directory</a>: a profile covering redaction on European infrastructure.</li>
+  <li><a href="https://www.webdirectorylink.com/listing-detail/redactic-document-redaction-and-ai-pseudonymisation/">Redactic on Web Directory Link</a>: a description of the service from Trieste for European professionals who share files full of other people's details.</li>
+  <li><a href="https://www.storeboard.com/redactic">Redactic on Storeboard</a>: the company's profile on the business network.</li>
 </ul>
 
 <h2>Cited in</h2>
