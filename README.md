@@ -66,6 +66,7 @@ Missing a document type or a national identifier your work depends on? [Open an 
 - [Redactic on Launch](https://trylaunch.ai/launch/redactic)
 - [The personal data a Word or Excel file keeps after you delete it from the page](https://redacticnotes.wordpress.com/2026/11/11/the-personal-data-a-word-or-excel-file-keeps-after-you-delete-it-from-the-page/) (WordPress.com)
 - [Redacting personal data before you share a document](https://sites.google.com/connect.ks-agents.com/redactic-guide) (Google Sites)
+- [Redactic on Pinterest](https://www.pinterest.com/redactic/document-redaction/)
 - [Redactic on LinkedIn](https://www.linkedin.com/products/ks-agents-redactic/)
 - [Redactic on Facebook](https://www.facebook.com/redactic.eu)
 - [Redactic on Storeboard](https://www.storeboard.com/redactic)
