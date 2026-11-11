@@ -70,6 +70,7 @@ Missing a document type or a national identifier your work depends on? [Open an 
 - [Redacting personal data before you share a document](https://sites.google.com/connect.ks-agents.com/redactic-guide) (Google Sites)
 - [Redactic on Pinterest](https://www.pinterest.com/redactic/document-redaction/)
 - [Redactic on LinkedIn](https://www.linkedin.com/products/ks-agents-redactic/)
+- [Redactic on Crunchbase](https://www.crunchbase.com/organization/redactic)
 - [Redactic on Facebook](https://www.facebook.com/redactic.eu)
 - [Redactic on Storeboard](https://www.storeboard.com/redactic)
 - [Redactic on AISO Tools](https://aisotools.com/tool/redactic)
@@ -78,7 +79,6 @@ Missing a document type or a national identifier your work depends on? [Open an 
 - [Redactic on AppRater](https://apprater.net/a/redactic)
 - [Redactic on LinkCentre](https://www.linkcentre.com/review/1736469/redactic-eu)
 - [Redactic on Logcla](https://logcla.com/pages/redactic)
-- [Redactic on Storeboard](https://www.storeboard.com/redactic)
 - [Redactic on Viesearch](https://viesearch.com/2agta/redactic-document-redaction-for-gdpr-and-ai)
 
 ## Cited in
