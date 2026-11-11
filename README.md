@@ -64,6 +64,7 @@ Missing a document type or a national identifier your work depends on? [Open an 
 - [Redactic on SaaSHub](https://www.saashub.com/redactic-eu)
 - [Redactic on IndieHunt](https://indiehunt.io/project/redactic)
 - [Redactic on Launch](https://trylaunch.ai/launch/redactic)
+- [Redactic on Facebook](https://www.facebook.com/redactic.eu)
 - [Redactic on Storeboard](https://www.storeboard.com/redactic)
 - [Redactic on AISO Tools](https://aisotools.com/tool/redactic)
 - [Redactic on AI Jet](https://aijet.cc/item/redactic)
