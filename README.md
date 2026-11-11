@@ -70,6 +70,7 @@ Missing a document type or a national identifier your work depends on? [Open an 
 - [Redactic on HyperStore](https://store.hypergpt.ai/redactic)
 - [Redactic on AppRater](https://apprater.net/a/redactic)
 - [Redactic on LinkCentre](https://www.linkcentre.com/review/1736469/redactic-eu)
+- [Redactic on Viesearch](https://viesearch.com/2agta/redactic-document-redaction-for-gdpr-and-ai)
 
 ## Cited in
 
