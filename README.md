@@ -65,6 +65,8 @@ Missing a document type or a national identifier your work depends on? [Open an 
 - [Redactic on IndieHunt](https://indiehunt.io/project/redactic)
 - [Redactic on Launch](https://trylaunch.ai/launch/redactic)
 - [The personal data a Word or Excel file keeps after you delete it from the page](https://redacticnotes.wordpress.com/2026/11/11/the-personal-data-a-word-or-excel-file-keeps-after-you-delete-it-from-the-page/) (WordPress.com)
+- [How label masking works before an AI task](https://north-minute-cc4.notion.site/How-label-masking-works-before-an-AI-task-415cc0aec03f80f1b3f2c64ce8546e56) (Notion)
+- [Mask or black out: choosing how to protect a document](https://issuu.com/redactic/docs/mask_or_black_out_choosing_how_to_protect_a_docum) (Issuu)
 - [Redacting personal data before you share a document](https://sites.google.com/connect.ks-agents.com/redactic-guide) (Google Sites)
 - [Redactic on Pinterest](https://www.pinterest.com/redactic/document-redaction/)
 - [Redactic on LinkedIn](https://www.linkedin.com/products/ks-agents-redactic/)
