@@ -73,6 +73,7 @@ Missing a document type or a national identifier your work depends on? [Open an 
 - [Redactic on Pinterest](https://www.pinterest.com/redactic/document-redaction/)
 - [Redactic on LinkedIn](https://www.linkedin.com/products/ks-agents-redactic/)
 - [Redactic on Fazier](https://fazier.com/launches/redactic)
+- [Redactic on AI Tech Viral](https://aitechviral.com/ai/redactic)
 - [Redactic on Crunchbase](https://www.crunchbase.com/organization/redactic)
 - [Redactic review console on Flickr](https://www.flickr.com/photos/205149577@N06/albums/72177720336999424)
 - [Redactic on Facebook](https://www.facebook.com/redactic.eu)
