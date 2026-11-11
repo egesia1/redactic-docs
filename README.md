@@ -2,7 +2,7 @@
 
 # Redactic
 
-[Redactic](https://redactic.eu/) is a European document redaction tool. It detects personal data in PDF, Word, Excel, images and scanned documents, and lets you either **mask it reversibly** before working with AI or **black it out permanently** before sharing.
+[Redactic](https://redactic.eu/) is a European document redaction tool. It detects personal data in PDF, Word, Excel, images and scanned documents, and lets you either **mask it reversibly** before working with AI or **black it out permanently** before sharing. Comments, tracked changes, hidden sheets, document properties and photo location data are cleaned as well. The [features page](https://redactic.eu/features/) shows the review console at work.
 
 - Processed in the EU, held only in encrypted memory for a few minutes, never stored
 - Never used to train AI models
