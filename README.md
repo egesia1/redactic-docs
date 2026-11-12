@@ -69,6 +69,7 @@ Missing a document type or a national identifier your work depends on? [Open an 
 - [Redaction checklist for outgoing documents](https://redactic-checklist.netlify.app/) (Netlify)
 - [Mask or black out: choosing how to protect a document](https://telegra.ph/Mask-or-black-out-choosing-how-to-protect-a-document-11-11) (Telegraph)
 - [Scanned documents are where redaction usually fails](https://www.tumblr.com/redacticeu/833007873823014912/scanned-documents-are-where-redaction-usually) (Tumblr)
+- [Sharing payslips and HR files without the personal data the recipient does not need](https://redaction-notes.netlify.app/) (Netlify)
 - [How label masking works before an AI task](https://north-minute-cc4.notion.site/How-label-masking-works-before-an-AI-task-415cc0aec03f80f1b3f2c64ce8546e56) (Notion)
 - [Mask or black out: choosing how to protect a document](https://issuu.com/redactic/docs/mask_or_black_out_choosing_how_to_protect_a_docum) (Issuu)
 - [Redacting personal data before you share a document](https://sites.google.com/connect.ks-agents.com/redactic-guide) (Google Sites)
