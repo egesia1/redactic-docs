@@ -29,6 +29,10 @@ Formats for the Netherlands, Switzerland, Austria, Belgium, Ireland, the United 
 
 Missing a document type or a national identifier your work depends on? [Open an issue](https://github.com/egesia1/redactic-docs/issues/new) with the country, the identifier name and a link to its official format specification. Please never paste real personal data in an issue.
 
+## Use Redactic from an AI assistant
+
+Redactic has a remote MCP server (`https://redactic.eu/mcp`). Setup: [AI assistants page](https://redactic.eu/ai-assistants/). Official MCP Registry: `eu.redactic/mcp`. Source: [redactic-mcp](https://github.com/redactic/redactic-mcp), npm [@redactic/mcp](https://www.npmjs.com/package/@redactic/mcp).
+
 ## Listed on
 
 - [Redactic on Product Hunt](https://www.producthunt.com/products/redactic)
