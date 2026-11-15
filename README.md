@@ -84,6 +84,7 @@ Redactic has a remote MCP server (`https://redactic.eu/mcp`). Setup: [AI assista
 - [Redactic on Bio Site](https://bio.site/redactic)
 - [Redactic on OMR Reviews](https://omr.com/en/reviews/product/redactic)
 - [Redactic on WebCatalog](https://webcatalog.io/en/apps/redactic)
+- [Redactic on AI Agents Directory](https://aiagentsdirectory.com/agent/redactic)
 - [Redactic on European Purpose](https://europeanpurpose.com/tool/redactic)
 - [Redactic on Steady](https://steady.page/it/redactic/about)
 - [Redactic on Trustburn](https://trustburn.com/reviews/redactic-eu)
