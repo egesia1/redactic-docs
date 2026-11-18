@@ -4,7 +4,7 @@
 
 [Redactic](https://redactic.eu/) is a European document redaction tool. It detects personal data in PDF, Word, Excel, images and scanned documents, and lets you either **mask it reversibly** before working with AI or **black it out permanently** before sharing. Comments, tracked changes, hidden sheets, document properties and photo location data are cleaned as well. The [features page](https://redactic.eu/features/) shows the review console at work.
 
-- Processed in the EU, held only in encrypted memory for a few minutes, never stored
+- Processed in the EU, held only in encrypted memory and deleted within 120 minutes at most, never stored
 - Never used to train AI models
 - Reversible masking with restoration in your browser: the mapping never reaches the server
 - Permanent black-out on the page, including OCR for scans, plus metadata removal
@@ -36,6 +36,7 @@ Redactic has a remote MCP server (`https://redactic.eu/mcp`). Setup: [AI assista
 ## Listed on
 
 - [Redactic on Product Hunt](https://www.producthunt.com/products/redactic)
+- [Redactic on GoodFirms](https://www.goodfirms.co/software/redactic)
 - [Redactic on LaunchIgniter](https://launchigniter.com/product/redactic)
 - [Redactic on Startup Fame](https://startupfa.me/s/redactic)
 - [Redactic on The One Startup](https://theonestartup.com/item/redactic)

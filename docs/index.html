@@ -25,7 +25,7 @@
     {
       "@type": "FAQPage",
       "mainEntity": [
-        {"@type": "Question", "name": "Are my documents saved?", "acceptedAnswer": {"@type": "Answer", "text": "No. The document and the result stay only in encrypted memory for a few minutes and are then deleted. There is no database copy, no log of the content and nothing written to disk."}},
+        {"@type": "Question", "name": "Are my documents saved?", "acceptedAnswer": {"@type": "Answer", "text": "No. The document and the result stay only in encrypted memory and are deleted two minutes after the download, and in any case within 120 minutes of the upload. There is no database copy, no log of the content and nothing written to disk."}},
         {"@type": "Question", "name": "Do I have to use your AI?", "acceptedAnswer": {"@type": "Answer", "text": "No. You can run the task inside Redactic or copy the masked text and use it with any model you prefer. In both cases the real values come back only in your browser."}},
         {"@type": "Question", "name": "Who is the data controller?", "acceptedAnswer": {"@type": "Answer", "text": "You are. Redactic acts as the data processor and the data processing agreement is signed automatically when you subscribe. The legal basis and the notice to the people in your documents remain with you."}},
         {"@type": "Question", "name": "Does it work with scans?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Text in scanned PDFs and images is recognised with OCR, masked and, if you only need to share, blacked out directly on the page."}},
@@ -104,7 +104,7 @@ footer{margin:90px 0 40px;padding-top:24px;border-top:1px solid var(--line);colo
 
 <main>
 <h1>Redact personal data, keep the <span class="redact">document</span> useful.</h1>
-<p class="lede"><a href="https://redactic.eu/">Redactic</a> is a European document redaction tool. It finds personal data in PDF, Word, Excel, images and scanned files, and lets you either mask it reversibly before working with AI or black it out permanently before sharing. Comments, tracked changes, hidden sheets, document properties and photo location data are cleaned as well. Files are processed in the EU, held only in encrypted memory for a few minutes, and never used to train any model.</p>
+<p class="lede"><a href="https://redactic.eu/">Redactic</a> is a European document redaction tool. It finds personal data in PDF, Word, Excel, images and scanned files, and lets you either mask it reversibly before working with AI or black it out permanently before sharing. Comments, tracked changes, hidden sheets, document properties and photo location data are cleaned as well. Files are processed in the EU, held only in encrypted memory and deleted within 120 minutes at most, and never used to train any model.</p>
 <ul class="badges">
   <li>Processed in the EU</li><li>No document retained</li><li>Never used for AI training</li><li>Restoration in your browser</li><li>DPA signed on subscription</li>
 </ul>
@@ -164,7 +164,7 @@ footer{margin:90px 0 40px;padding-top:24px;border-top:1px solid var(--line);colo
 <p>Redactic is designed for professionals who handle personal data every day and need a quick, verifiable way to remove it: law firms and their assistants, HR and payroll offices, accountants, labour consultants, notaries and administrative staff.</p>
 
 <h2>Questions</h2>
-<details><summary>Are my documents saved?</summary><p>No. The document and the result stay only in encrypted memory for a few minutes and are then deleted. There is no database copy, no log of the content and nothing written to disk.</p></details>
+<details><summary>Are my documents saved?</summary><p>No. The document and the result stay only in encrypted memory and are deleted two minutes after the download, and in any case within 120 minutes of the upload. There is no database copy, no log of the content and nothing written to disk.</p></details>
 <details><summary>Do I have to use your AI?</summary><p>No. You can run the task inside Redactic or copy the masked text and use it with any model you prefer. In both cases the real values come back only in your browser.</p></details>
 <details><summary>Who is the data controller?</summary><p>You are. Redactic acts as the data processor and the data processing agreement is signed automatically when you subscribe. The legal basis and the notice to the people in your documents remain with you.</p></details>
 <details><summary>Does it work with scans?</summary><p>Yes. Text in scanned PDFs and images is recognised with OCR, masked and, if you only need to share, blacked out directly on the page.</p></details>
@@ -231,6 +231,7 @@ footer{margin:90px 0 40px;padding-top:24px;border-top:1px solid var(--line);colo
 <p>Launch platforms follow new products from the day they go public, and their profiles describe the product at launch.</p>
 <ul class="dir">
   <li><a href="https://www.producthunt.com/products/redactic">Redactic on Product Hunt</a>: the launch page and product profile.</li>
+  <li><a href="https://www.goodfirms.co/software/redactic">Redactic on GoodFirms</a>: software profile with features, pricing and supported languages.</li>
   <li><a href="https://saasgrow.app/saas/redactic/timeline">Redactic on SaaSGrow</a>: a timeline of product updates since launch.</li>
   <li><a href="https://www.f6s.com/software/redactic">Redactic on F6S</a>: the startup network's software profile.</li>
   <li><a href="https://theorg.com/org/redactic-1">Redactic on The Org</a>: the company page, with KS-Agents in Trieste, Italy, as the team behind the product.</li>
